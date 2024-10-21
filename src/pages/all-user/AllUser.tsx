@@ -40,7 +40,7 @@ const AllUser = () => {
         </div>
         {user.followers.some((item: any) => item._id == userData?._id) ? (
           <button
-            className="w-[110px] h-[38px] rounded-[8px] bg-lime-600  text-[#fff]"
+            className="w-[110px] h-[38px] rounded-[8px] bg-[#877EFF]  text-[#fff]"
             onClick={() => unfollow({ username: user.username })}
           >
             {unfollowing && user._id == userData?._id ? (

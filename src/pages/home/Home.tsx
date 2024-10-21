@@ -53,7 +53,7 @@ const Home = () => {
           </button>
         ) : (
           <button
-            className="w-[79px] h-[30px] rounded-[8px] bg-lime-600 text-[#fff]"
+            className="w-[79px] h-[30px] rounded-[8px] bg-[#877EFF] text-[#fff]"
             onClick={() => followUser({ username: user.username })}
           >
             {follow && user._id == userData?._id ? (
